@@ -1,5 +1,6 @@
+var sumq;
 function jstest() {
-  var sumq = "$$x^2=0$$";
+  sumq = "$$x^3=0$$";
   document.getElementById("a").innerHTML = sumq;
   MathJax.Hub.Queue(["Typeset",MathJax.Hub, "a"]);
 }
