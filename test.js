@@ -1,3 +1,5 @@
 function jstest() {
-  document.getElementById("a").innerHTML = "Did it work?";
+  var sumq = "$$x^2=0$$";
+  document.getElementById("a").innerHTML = sumq;
+  MathJax.Hub.Queue(["Typeset",MathJax.Hub, "a"]);
 }
